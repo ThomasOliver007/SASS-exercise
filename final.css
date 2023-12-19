@@ -1,12 +1,7 @@
-@import "typography.css";
-@import "main.scss";
-html {
-  font-size: 94.75%;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
+.char-highlight {
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #521751;
 }
 
 .container {
@@ -30,7 +25,6 @@ body {
   width: 90%;
   box-sizing: border-box;
 }
-
 .sass-introduction p {
   margin: 0;
 }
@@ -44,12 +38,10 @@ body {
   width: 90%;
   box-sizing: border-box;
 }
-
-.section-header {
+.sass-details .section-header {
   border-bottom: 0.05rem solid #5e6eed;
 }
-
-.section-header h1 {
+.sass-details .section-header h1 {
   margin: 0 0 1rem 0;
 }
 
@@ -63,12 +55,10 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 .documentation-links li {
   margin: 0.2rem 0;
   background: white;
 }
-
 .documentation-links .documentation-link {
   text-decoration: none;
   color: #5e6eed;
@@ -76,25 +66,10 @@ body {
   padding: 0.2rem;
   border: 0.05rem solid #5e6eed;
 }
-
-.documentation-links .documentation-link:hover,
-.documentation-links .documentation-link:active {
+.documentation-links .documentation-link:hover, .documentation-links .documentation-link:active {
   color: white;
   background: #3ffa84;
   border-color: #3ffa84;
 }
 
-@media (min-width: 40rem) {
-  html {
-    font-size: 125%;
-  }
-
-  .container {
-    padding: 3rem 0;
-  }
-
-  .sass-introduction,
-  .sass-details {
-    width: 30rem;
-  }
-}
+/*# sourceMappingURL=final.css.map */
